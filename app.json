@@ -16,11 +16,12 @@
   ],
   "website": "https://github.com/ugandac/Fathela-ai-xmd#readme",
   "repository": "https://github.com/ugandac/Fathela-ai-xmd.git",
-  "logo": "https://i.imgur.com/xFmW8er.jpeg",
+  "logo": "https://i.imgur.com/V1Q0BbQ.jpeg",
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of BENSON-TECHNLOGY Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "description": "Prefix of FATHELA-T Ex: . , / , # , & etc. Put any symbol or leave it blank",
+      "value": ".",
       "required": false
 
     },
