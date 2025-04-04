@@ -248,7 +248,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       console.log(color("Congrats, BENSON-BOT has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Arlodragon", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 » » »【BENSON-BOT】 ` });
+      client.sendMessage(client.user.id, { text: `FATHELA-AI CONNECTED 🦄` });
     }
   });
 
