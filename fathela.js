@@ -571,7 +571,7 @@ let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╭══�
 if (menu === 'VIDEO') {
 
                    client.sendMessage(m.chat, {
-                        video: fs.readFileSync('./Media/VID-20250331-WA0018.mp4'),
+                        video: fs.readFileSync('./Media/menu.mp4'),
                         caption: cap,
                         gifPlayback: true
                     }, {
