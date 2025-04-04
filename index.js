@@ -44,7 +44,7 @@ async function startRaven() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("BENSON-TECH", {
+      figlet.textSync("FATHELA-AI", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -57,7 +57,7 @@ async function startRaven() {
   const client = ravenConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["BENSON - AI", "Safari", "5.1.7"],
+    browser: ["FATHELA - AI", "Safari", "5.1.7"],
     auth: state,
     syncFullHistory: true,
   });
@@ -88,14 +88,14 @@ async function startRaven() {
     console.log('Decoded JID:', nickk);
     if (!mek.status) {
         console.log('Sending reaction to:', mek.key.remoteJid);
-        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '💚' } }, { statusJidList: [mek.key.participant, nickk] });
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '⚡' } }, { statusJidList: [mek.key.participant, nickk] });
         console.log('Reaction sent');
     }
 }
             
 if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       let m = smsg(client, mek, store);
-      const raven = require("./raven");
+      const raven = require("./fathela");
       raven(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
@@ -159,7 +159,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
             const currentTime = Date.now();
       if (currentTime - lastTextTime >= messageDelay) {
         await client.sendMessage(callerId, {
-          text: "Anticall is active, Only texts are allowed"
+          text: "FATHELA-AI is active, Only texts are allowed"
         });
         lastTextTime = currentTime;
       } else {
