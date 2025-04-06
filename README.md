@@ -32,5 +32,5 @@
 
 *****NOW DEPLOY*****
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Kingdragony/DRAGON-AI&template=https://github.com/ugandac/Fathela-ai-xmd.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Kingdragony/DRAGON-AI&template=https://github.com/ugandac/Ard-xbot.git)
   
